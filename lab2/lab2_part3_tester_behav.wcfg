@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lab2_part3_tester_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lab2_part3_tester" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6476847fs"></ZoomEndTime>
+      <Cursor1Time time="18000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="173"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/lab2_part3_tester/A" type="array">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_part3_tester/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_part3_tester/ALUfn" type="array">
+      <obj_property name="ElementShortName">ALUfn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUfn[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_part3_tester/R" type="array">
+      <obj_property name="ElementShortName">R[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_part3_tester/FlagN" type="logic">
+      <obj_property name="ElementShortName">FlagN</obj_property>
+      <obj_property name="ObjectShortName">FlagN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_part3_tester/FlagC" type="logic">
+      <obj_property name="ElementShortName">FlagC</obj_property>
+      <obj_property name="ObjectShortName">FlagC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_part3_tester/FlagV" type="logic">
+      <obj_property name="ElementShortName">FlagV</obj_property>
+      <obj_property name="ObjectShortName">FlagV</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_part3_tester/FlagZ" type="logic">
+      <obj_property name="ElementShortName">FlagZ</obj_property>
+      <obj_property name="ObjectShortName">FlagZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_part3_tester/width" type="array">
+      <obj_property name="ElementShortName">width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">width[31:0]</obj_property>
+   </wvobject>
+</wave_config>

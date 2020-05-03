@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="controller_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="controller_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="36000001fs"></ZoomEndTime>
+      <Cursor1Time time="10510000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="168"></NameColumnWidth>
+      <ValueColumnWidth column_width="179"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/controller_test/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/op" type="array">
+      <obj_property name="ElementShortName">op[5:0]</obj_property>
+      <obj_property name="ObjectShortName">op[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/func" type="array">
+      <obj_property name="ElementShortName">func[5:0]</obj_property>
+      <obj_property name="ObjectShortName">func[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/pcsel" type="array">
+      <obj_property name="ElementShortName">pcsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pcsel[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/wasel" type="array">
+      <obj_property name="ElementShortName">wasel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wasel[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/sext" type="logic">
+      <obj_property name="ElementShortName">sext</obj_property>
+      <obj_property name="ObjectShortName">sext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/bsel" type="logic">
+      <obj_property name="ElementShortName">bsel</obj_property>
+      <obj_property name="ObjectShortName">bsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/wdsel" type="array">
+      <obj_property name="ElementShortName">wdsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wdsel[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/alufn" type="array">
+      <obj_property name="ElementShortName">alufn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">alufn[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/werf" type="logic">
+      <obj_property name="ElementShortName">werf</obj_property>
+      <obj_property name="ObjectShortName">werf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/asel" type="array">
+      <obj_property name="ElementShortName">asel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">asel[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/ERROR" type="logic">
+      <obj_property name="ElementShortName">ERROR</obj_property>
+      <obj_property name="ObjectShortName">ERROR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/ERROR_pcsel" type="logic">
+      <obj_property name="ElementShortName">ERROR_pcsel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_pcsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/ERROR_wasel" type="logic">
+      <obj_property name="ElementShortName">ERROR_wasel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_wasel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/ERROR_sext" type="logic">
+      <obj_property name="ElementShortName">ERROR_sext</obj_property>
+      <obj_property name="ObjectShortName">ERROR_sext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/ERROR_bsel" type="logic">
+      <obj_property name="ElementShortName">ERROR_bsel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_bsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/ERROR_wdsel" type="logic">
+      <obj_property name="ElementShortName">ERROR_wdsel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_wdsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/ERROR_alufn" type="logic">
+      <obj_property name="ElementShortName">ERROR_alufn</obj_property>
+      <obj_property name="ObjectShortName">ERROR_alufn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/ERROR_wr" type="logic">
+      <obj_property name="ElementShortName">ERROR_wr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/ERROR_werf" type="logic">
+      <obj_property name="ElementShortName">ERROR_werf</obj_property>
+      <obj_property name="ObjectShortName">ERROR_werf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_test/ERROR_asel" type="logic">
+      <obj_property name="ElementShortName">ERROR_asel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_asel</obj_property>
+   </wvobject>
+</wave_config>

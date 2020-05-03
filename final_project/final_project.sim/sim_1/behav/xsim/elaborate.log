@@ -1,0 +1,11 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 908e8bdfe61f46b8b4b383d117583a82 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot project_screentest_behav xil_defaultlib.project_screentest xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 8 for port 'addr' [C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/final_project/final_project.srcs/sources_1/new/top.sv:92]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 11 for port 'cpu_addr' [C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/final_project/final_project.srcs/sources_1/new/memIO.sv:74]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 6 for port 'cpu_addr' [C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/final_project/final_project.srcs/sources_1/new/memIO.sv:77]
+WARNING: [VRFC 10-3091] actual bit length 11 differs from formal bit length 12 for port 'screen_addr' [C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/final_project/final_project.srcs/sources_1/new/top.sv:107]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

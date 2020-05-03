@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="datapath_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="datapath_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6061427fs"></ZoomEndTime>
+      <Cursor1Time time="19000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="168"></NameColumnWidth>
+      <ValueColumnWidth column_width="179"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/datapath_test/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/WR" type="logic">
+      <obj_property name="ElementShortName">WR</obj_property>
+      <obj_property name="ObjectShortName">WR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/RA1" type="array">
+      <obj_property name="ElementShortName">RA1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RA1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/RA2" type="array">
+      <obj_property name="ElementShortName">RA2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RA2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/WA" type="array">
+      <obj_property name="ElementShortName">WA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WA[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/ALUFN" type="array">
+      <obj_property name="ElementShortName">ALUFN[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUFN[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/WD" type="array">
+      <obj_property name="ElementShortName">WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/RD1" type="array">
+      <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/RD2" type="array">
+      <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/ALUResult" type="array">
+      <obj_property name="ElementShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/FlagZ" type="logic">
+      <obj_property name="ElementShortName">FlagZ</obj_property>
+      <obj_property name="ObjectShortName">FlagZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/ERROR" type="logic">
+      <obj_property name="ElementShortName">ERROR</obj_property>
+      <obj_property name="ObjectShortName">ERROR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/ERROR_RD1" type="logic">
+      <obj_property name="ElementShortName">ERROR_RD1</obj_property>
+      <obj_property name="ObjectShortName">ERROR_RD1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/ERROR_RD2" type="logic">
+      <obj_property name="ElementShortName">ERROR_RD2</obj_property>
+      <obj_property name="ObjectShortName">ERROR_RD2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/ERROR_ALUResult" type="logic">
+      <obj_property name="ElementShortName">ERROR_ALUResult</obj_property>
+      <obj_property name="ObjectShortName">ERROR_ALUResult</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/ERROR_FlagZ" type="logic">
+      <obj_property name="ElementShortName">ERROR_FlagZ</obj_property>
+      <obj_property name="ObjectShortName">ERROR_FlagZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/Nloc" type="array">
+      <obj_property name="ElementShortName">Nloc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Nloc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/Dbits" type="array">
+      <obj_property name="ElementShortName">Dbits[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Dbits[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_test/Abits" type="array">
+      <obj_property name="ElementShortName">Abits[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Abits[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,13 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.sim/sim_7/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sim_7/new/lab2_part4_8bit_test.sv,1579726481,systemVerilog,,,,lab2_part4_8bit_test,,,,,,,,
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/imports/new/fulladder.sv,1579286958,systemVerilog,,C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/logical.sv,,fulladder,,,,,,,,
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/ALU.sv,1579728727,systemVerilog,,C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/adder.sv,,ALU,,,,,,,,
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/adder.sv,1579556067,systemVerilog,,C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/addsub.sv,,adder,,,,,,,,
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/addsub.sv,1579558966,systemVerilog,,C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/comparator.sv,,addsub,,,,,,,,
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/comparator.sv,1579727146,systemVerilog,,C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/imports/new/fulladder.sv,,comparator,,,,,,,,
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/logical.sv,1579729458,systemVerilog,,C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/shifter.sv,,logical,,,,,,,,
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/shifter.sv,1579564152,systemVerilog,,C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sim_7/new/lab2_part4_8bit_test.sv,,shifter,,,,,,,,

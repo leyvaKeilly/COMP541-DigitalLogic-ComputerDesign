@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.sim/sim_3/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sim_3/new/adder8bit_test.sv,1579314049,systemVerilog,,,,adder8bit_test,,,,,,,,
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/imports/new/fulladder.sv,1579286958,systemVerilog,,C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sim_3/new/adder8bit_test.sv,,fulladder,,,,,,,,
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/adder4bit.sv,1579306463,systemVerilog,,C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/adder8bit.sv,,adder4bit,,,,,,,,
+C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/new/adder8bit.sv,1579313444,systemVerilog,,C:/Users/lkeilly/Desktop/UNC stuff/Spring2020/COMP541/Labs/projects/lab2a/lab2a.srcs/sources_1/imports/new/fulladder.sv,,adder8bit,,,,,,,,

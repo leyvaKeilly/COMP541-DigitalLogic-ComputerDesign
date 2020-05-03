@@ -1,0 +1,123 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Apr 22 12:20:14 2020
+| Host         : lkeilly-pc running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    48 |
+| Unused register locations in slices containing registers |   111 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      2 |            1 |
+|      3 |            1 |
+|      4 |            5 |
+|      5 |            2 |
+|      6 |            3 |
+|      7 |            1 |
+|      8 |            4 |
+|      9 |            3 |
+|     10 |            2 |
+|     12 |            1 |
+|    16+ |           24 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              61 |           24 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             138 |           47 |
+| Yes          | No                    | No                     |             122 |           36 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             152 |           47 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------+------------------------------------------------------------------+-----------------------------------------------------+------------------+----------------+
+|     Clock Signal    |                           Enable Signal                          |                   Set/Reset Signal                  | Slice Load Count | Bel Load Count |
++---------------------+------------------------------------------------------------------+-----------------------------------------------------+------------------+----------------+
+|  clkdv/clk100       | display/myvgatimer/xy/y[9]_i_2_n_0                               |                                                     |                1 |              1 |
+|  clkdv/clk12        |                                                                  |                                                     |                2 |              2 |
+|  clkdv/clkout0_BUFG |                                                                  |                                                     |                1 |              3 |
+|  clkdv/clk100       | accel/accel/ADXL_Control/Cmd_Reg[0]_6                            | accel/accel/ADXL_Control/Cmd_Reg[0][6]_i_1_n_0      |                1 |              4 |
+|  clkdv/clk100       | accel/accel/ADXL_Control/CE_Cnt_Num_Reads                        | accel/accel/ADXL_Control/Reset_Cnt_Num_Reads        |                1 |              4 |
+|  clkdv/clk100       | accel/accel/ADXL_Control/FSM_sequential_StC_Adxl_Ctrl[3]_i_1_n_0 | accel/accel/RESET_INT_reg_n_0                       |                1 |              4 |
+|  clkdv/clk12        | mips/dp/pc[31]_i_1_n_0                                           | reset_IBUF                                          |                2 |              4 |
+|  clkdv/clk100       | keyb/count[3]_i_1_n_0                                            | keyb/count0                                         |                1 |              4 |
+|  clkdv/clk100       | accel/accel/ADXL_Control/Cmd_Reg[1][6]_i_2_n_0                   | accel/accel/ADXL_Control/Cmd_Reg[1]0_in[7]          |                2 |              5 |
+|  clkdv/clk100       | keyb/keyb_char[15]_i_1_n_0                                       | keyb/keyb_char[31]_i_1_n_0                          |                2 |              5 |
+|  clkdv/clk100       |                                                                  | accel/accel/ADXL_Control/SPI_Interface/SCLK_2X_DIV0 |                2 |              6 |
+|  clkdv/clk100       |                                                                  | accel/accel/RESET_INT_reg_n_0                       |                2 |              6 |
+|  clkdv/clk100       | accel/accel/ADXL_Control/Cmd_Reg[2]_7                            | accel/accel/ADXL_Control/Cmd_Reg[2]_5[7]            |                2 |              6 |
+|  clkdv/clk100       | accel/accel/ADXL_Control/Shift_Cmd_Reg                           | accel/accel/RESET_INT_reg_n_0                       |                2 |              7 |
+|  clkdv/clk100       | accel/accel/ADXL_Control/SPI_Interface/MOSI_REG[7]_i_1_n_0       |                                                     |                1 |              8 |
+|  clkdv/clk100       | display/myvgatimer/xy/y[9]_i_2_n_0                               | display/myvgatimer/xy/y[9]_i_1_n_0                  |                3 |              8 |
+|  clkdv/clk100       | accel/accel/ADXL_Control/SPI_Interface/DONE_1_i_1_n_0            |                                                     |                1 |              8 |
+|  clkdv/clk100       | accel/accel/ADXL_Control/SPI_Interface/SHIFT_TICK_IN             |                                                     |                2 |              8 |
+|  clkdv/clk100       |                                                                  | accel/accel/Accel_Calculation/ACCEL_X_CLIP[3]       |                2 |              9 |
+|  clkdv/clk100       |                                                                  | accel/accel/Accel_Calculation/ACCEL_Y_CLIP[5]       |                3 |              9 |
+|  clkdv/clk100       | keyb/keyb_char[15]_i_1_n_0                                       |                                                     |                4 |              9 |
+|  clkdv/clk100       | keyb/bits[9]_i_1_n_0                                             |                                                     |                4 |             10 |
+|  clkdv/clk100       |                                                                  | accel/accel/ADXL_Control/Cnt_SS_Inactive0           |                3 |             10 |
+|  clkdv/clk100       | keyb/count0                                                      |                                                     |                3 |             12 |
+|  clkdv/clk100       |                                                                  | accel/accel/ADXL_Control/Reset_Sample_Rate_Div      |                5 |             20 |
+|  clkdv/clk100       |                                                                  | keyb/clear                                          |                5 |             20 |
+|  clkdv/clk100       | accel/accel/ADXL_Control/E[0]                                    | accel/accel/RESET_INT_reg_n_0                       |                5 |             22 |
+|  clkdv/clk100       | display/myvgatimer/xy/Every4thTick                               | display/myvgatimer/xy/y[9]_i_2_n_0                  |                9 |             23 |
+|  clkdv/clk100       | accel/accel/ADXL_Control/StC_Adxl_Ctrl[3]                        | accel/accel/RESET_INT_reg_n_0                       |                8 |             24 |
+|  clkdv/clk12        |                                                                  | reset_IBUF                                          |               17 |             26 |
+|  clkdv/clk100       |                                                                  | sound/clear                                         |                8 |             32 |
+|  clkdv/clk100       | accel/accel/ADXL_Control/CE_Cnt_Num_Reads                        | accel/accel/ADXL_Control/ACCEL_X_SUM0               |                8 |             32 |
+|  clkdv/clk12        | mips/dp/rf/dmem_wr                                               |                                                     |               17 |             32 |
+|  clkdv/clk12        | mips/dp/rf/E[0]                                                  |                                                     |               12 |             32 |
+|  clkdv/clk12        | mips/dp/rf/mem_reg_1024_1151_0_0_i_2_1                           |                                                     |               22 |             34 |
+|  clkdv/clk12        | mips/dp/rf/mem_reg_1024_1151_0_0_i_2_0                           |                                                     |               22 |             34 |
+|  clkdv/clk100       | accel/accel/ADXL_Control/SPI_Interface/Shift_Data_Reg            |                                                     |                8 |             42 |
+|  clkdv/clk100       |                                                                  |                                                     |               21 |             56 |
+|  clkdv/clk12        | mips/dp/rf/c/controls[9]                                         |                                                     |               12 |             96 |
+|  clkdv/clk12        | mips/dp/rf/mem_reg_0_127_0_0_i_14_2                              |                                                     |               32 |            128 |
+|  clkdv/clk12        | mips/dp/rf/mem_reg_0_127_0_0_i_14_1                              |                                                     |               32 |            128 |
+|  clkdv/clk12        | mips/dp/rf/mem_reg_0_127_0_0_i_14_3                              |                                                     |               32 |            128 |
+|  clkdv/clk12        | mips/dp/rf/mem_reg_384_511_0_0_i_2_1                             |                                                     |               32 |            128 |
+|  clkdv/clk12        | mips/dp/rf/mem_reg_128_255_0_0_i_2_1                             |                                                     |               32 |            128 |
+|  clkdv/clk12        | mips/dp/rf/mem_reg_1024_1151_0_0_i_5_0                           |                                                     |               32 |            128 |
+|  clkdv/clk12        | mips/dp/rf/mem_reg_0_127_0_0_i_14_0                              |                                                     |               32 |            128 |
+|  clkdv/clk12        | mips/dp/rf/mem_reg_128_255_0_0_i_2_0                             |                                                     |               32 |            128 |
+|  clkdv/clk12        | mips/dp/rf/mem_reg_384_511_0_0_i_2_0                             |                                                     |               32 |            128 |
++---------------------+------------------------------------------------------------------+-----------------------------------------------------+------------------+----------------+
+
+
