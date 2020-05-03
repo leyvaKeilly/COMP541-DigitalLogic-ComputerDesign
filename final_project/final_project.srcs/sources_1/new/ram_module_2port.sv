@@ -1,27 +1,6 @@
 `timescale 1ns / 1ps
 `default_nettype none
 
-//////////////////////////////////////////////////////////////////////////////////
-//
-// NOTE:  There should be NO NEED TO MODIFY *ANYTHING* in this template.
-//        You do NOT need to modify any parameters at the top, nor any of
-//        the bit widths of address or data.
-//
-//        Simply use different values for the parameters when the module
-//        is instantiated inside its parent.
-//
-//        Modifying anything here is cause for much headache later on!
-//////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-// DO NOT MODIFY *ANYTHING* BELOW!!!!!!!!!!!!!!!!
-// DO NOT MODIFY *ANYTHING* BELOW!!!!!!!!!!!!!!!!
-// DO NOT MODIFY *ANYTHING* BELOW!!!!!!!!!!!!!!!!
-// DO NOT MODIFY *ANYTHING* BELOW!!!!!!!!!!!!!!!!
-// DO NOT MODIFY *ANYTHING* BELOW!!!!!!!!!!!!!!!!
-// DO NOT MODIFY *ANYTHING* BELOW!!!!!!!!!!!!!!!!
 
 
 module ram_module_2port #(
